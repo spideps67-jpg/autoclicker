@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autoclicker",
+  "version": "${version}",
+  "name": "Auto Clicker",
+  "description": "Przytrzymaj L, a mod uderza co 1 sekunde.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autoclicker.AutoClickerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
